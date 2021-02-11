@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #00bfff,#00ff2a);
+}
+h1{
+    text-align:center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 3rem;
+    max-width: 600px;
+    margin: auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    border: 2px groove rgb(238, 244, 245);
+    border-radius: 50rem;
+    box-shadow: 2px 2px 3px white;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: 2px outset rgb(238,244,245);
+    border-bottom-left-radius: 30rem;
+    border-bottom-right-radius: 30rem;
+}
+
+input{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    margin-bottom:2rem;
+    padding: 0.3rem;
+    width: 5rem;
+    border: 2px groove red;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 400px;
+    margin: auto;
+
+}
